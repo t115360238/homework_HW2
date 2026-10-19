@@ -7,7 +7,7 @@ double credits;
 double limit;
 double new_balance;
 
-void main(){
+int main(){
 
     while(1){
         printf("Enter account number (-1 to end): ");
@@ -37,4 +37,6 @@ void main(){
             printf("Credit Limit Exceeded.\n");
         }
     }
+
+    return 0;
 }

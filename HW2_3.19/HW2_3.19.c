@@ -5,7 +5,7 @@ double rate;
 double interest;
 int day;
 
-void main(){
+int main(){
 
     while(1){
         printf("Enter loan principal (-1 to end): ");
@@ -25,4 +25,5 @@ void main(){
         printf("The interest charge is $%.2f\n", interest);
     }
     
+    return 0;
 }

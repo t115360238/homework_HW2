@@ -2,7 +2,7 @@
 
 int length, breadth;
 
-void main(){
+int main(){
 
     scanf("%d%d", &length, &breadth);
 
@@ -17,4 +17,6 @@ void main(){
 
          printf("+\n");
     }
+
+    return 0;
 }

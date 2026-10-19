@@ -4,7 +4,7 @@ int hours;
 double rate;
 double salary;
 
-void main(){
+int main(){
 
     while(1){
         printf("Enter # of hours worked (-1 to end): ");
@@ -20,4 +20,5 @@ void main(){
         printf("Salary if $%.2f\n", salary);
     }
     
+    return 0;
 }

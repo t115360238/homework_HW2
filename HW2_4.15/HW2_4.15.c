@@ -3,7 +3,7 @@
 
 double amount;
 
-void main(){
+int main(){
 
     for(double rate = 0.10; rate <= 0.121; rate += 0.005){
         printf("\nrate: %.1f%%\n", rate * 100);
@@ -12,4 +12,6 @@ void main(){
             printf("%02d:%.2f\n", year, amount);
         }
     }
+
+    return 0;
 }
